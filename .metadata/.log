@@ -89,3 +89,33 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 20:35:36.654
 !MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 20:46:46.755
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 20:46:46.756
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 20:46:46.757
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB FactoryPattern false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 20:46:46.757
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 20:46:46.766
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 21:29:48.561
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 21:29:48.563
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 21:29:48.564
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB AbstractFactory false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 21:29:48.565
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 21:29:48.592
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
