@@ -149,3 +149,18 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 22:29:11.527
 !MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 22:41:53.880
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 22:41:53.882
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 22:41:53.882
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB AdapterPattern false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 22:41:53.882
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 22:41:53.893
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
