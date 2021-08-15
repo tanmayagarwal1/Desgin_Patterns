@@ -164,3 +164,78 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 22:41:53.893
 !MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 22:45:32.461
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 22:45:32.462
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 22:45:32.463
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB FacadePattern false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 22:45:32.463
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-15 22:45:32.480
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.eclipse.jface 4 2 2021-08-15 22:48:17.856
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.dom.ASTNode.getParent()" because "node" is null
+	at org.eclipse.jdt.internal.corext.dom.ASTNodes.getParent(ASTNodes.java:2474)
+	at org.eclipse.jdt.internal.corext.refactoring.structure.ASTNodeSearchUtil.getMethodDeclarationNode(ASTNodeSearchUtil.java:129)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringAvailabilityTester.isCanonicalConstructor(RefactoringAvailabilityTester.java:208)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringAvailabilityTester.isIntroduceParameterObjectAvailable(RefactoringAvailabilityTester.java:1250)
+	at org.eclipse.jdt.internal.ui.actions.IntroduceParameterObjectAction.selectionChanged(IntroduceParameterObjectAction.java:74)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchSelectionChanged(SelectionDispatchAction.java:262)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.selectionChanged(SelectionDispatchAction.java:257)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1662)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1084)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaOutlinePage.select(JavaOutlinePage.java:1127)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.synchronizeOutlinePage(JavaEditor.java:2153)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.synchronizeOutlinePage(JavaEditor.java:2141)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.selectionChanged(JavaEditor.java:2248)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4179)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3839)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-15 22:48:39.545
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
