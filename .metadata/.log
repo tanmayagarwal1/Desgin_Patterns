@@ -299,3 +299,234 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:48:28.642
 !MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:58:15.610
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:58:15.612
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:58:15.613
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB ProxyPattern false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:58:15.613
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:58:15.646
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-08-16 16:53:30.816
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:23.500
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:23.502
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:23.502
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB demo false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:23.502
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:23.542
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:50.170
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-08-16 23:36:50.170
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:50.170
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:50.171
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB demo false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:50.171
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:50.295
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:50.295
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:50.297
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:50.298
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB demo false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:50.298
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:36:50.327
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-16 23:36:50.752
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-08-16 23:36:51.139
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-08-16 23:37:28.237
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:37:28.237
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:37:28.238
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:37:28.238
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB demo false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:37:28.238
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:37:28.246
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-16 23:37:28.375
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-08-16 23:38:35.401
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-08-16 23:38:36.319
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:39:22.993
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:39:22.993
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:39:22.993
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:39:22.997
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:40:55.525
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:40:55.526
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:40:55.526
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB demo false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:40:55.527
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:40:55.532
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-16 23:40:55.716
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:40:55.717
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:40:55.718
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:40:55.718
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB demo false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:40:55.718
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:40:55.732
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-16 23:40:56.194
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY Activator 1 0 2021-08-16 23:41:23.435
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:41:23.436
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:41:23.437
+!MESSAGE classpath=52 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:41:23.437
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB demo false 52
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:41:23.438
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:41:23.446
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-16 23:41:23.552
+!MESSAGE Has main method computation for project 'demo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:42:43.818
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:42:43.818
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:42:43.818
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:42:43.821
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:43:11.408
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:43:11.409
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:43:11.409
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB demo false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:43:11.409
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:43:11.412
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:43:11.443
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:43:11.444
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:43:11.444
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB demo false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:43:11.444
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:43:11.447
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:43:35.365
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:43:35.366
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB demo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:43:35.366
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 23:43:35.368
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
