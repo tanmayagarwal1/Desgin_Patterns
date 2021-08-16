@@ -269,3 +269,33 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 08:32:27.958
 !MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 08:37:07.387
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 08:37:07.388
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 08:37:07.389
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB SingletonPattern false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 08:37:07.389
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 08:37:07.402
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:48:28.580
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:48:28.585
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:48:28.586
+!MESSAGE buffering callback sts4.classpath.LmEBEeDB ProxyPattern false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:48:28.588
+!MESSAGE executing callback sts4.classpath.LmEBEeDB 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:48:28.642
+!MESSAGE executing callback sts4.classpath.LmEBEeDB SUCCESS [done]
