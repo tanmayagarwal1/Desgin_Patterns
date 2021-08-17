@@ -1,7 +1,7 @@
 package Pattern;
 
 public class SingleObject {
-	private static SingleObject obj = new SingleObject();
+	private static  SingleObject obj = new SingleObject();
 	private SingleObject() {};
 	public static SingleObject getter() {
 		return obj;
